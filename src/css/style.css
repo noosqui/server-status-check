@@ -121,7 +121,7 @@ flex-wrap: wrap;
 }
 
 .status{
-    background-color: rgb(79, 221, 79);
+   
     border-radius: 50px;
     display: flex;
     padding: 1em;
@@ -133,7 +133,15 @@ flex-wrap: wrap;
     font-weight: bold;
     font-size: 15px;
     
-
+}
+.status_warning{
+    background-color: rgb(221, 197, 79);
+}
+.status_ok{
+    background-color: rgb(79, 221, 79);
+}
+.status_error{
+    background-color: rgb(221, 79, 79);
 }
 .status * {
     margin: 0 5px 0 5px;     
@@ -157,3 +165,10 @@ text-align: left;
 margin-left: 80%;
 color: #5b5b5b;
 }
+.card-content h5{
+    font-size: 12px;
+    margin:-10px 0px 20px 0px;
+    color: gray;
+}
+
+/*MODAL CSS    */

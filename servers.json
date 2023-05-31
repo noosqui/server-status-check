@@ -1,8 +1,33 @@
-[
-    {
+{
+    "config":{
+        "primary_color":"#fff",
+        "text_color":"#000",
+        "color_mode":"light",
+        "check_seconds":60
+
+    },
+    "data":[ {
         "$id":1,
         "name":"Unik Fashion localhost",
-        "ip":"127.0.0.1:8069",
-        "method":"GET"
+        "ip":"http://127.0.0.1:8069/web",
+        "method":"GET",
+        "type":"domain"
+    },
+    {
+        "$id":2,
+        "name":"Server Web",
+        "ip":"http://127.0.0.1:3000/src/index.html",
+        "method":"GET",
+        "type":"domain"
+    },
+    {
+        "$id":3,
+        "name":"Google",
+        "ip":"https://www.google.com/",
+        "method":"PING",
+        "type":"server"
     }
+
 ]
+}
+   
